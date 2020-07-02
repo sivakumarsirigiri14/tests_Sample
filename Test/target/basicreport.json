@@ -1,0 +1,471 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 33924144478,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSteps.deleteCookies()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Adding to bakset and purchase",
+        "description": "",
+        "id": "purchase-item;adding-to-bakset-and-purchase",
+        "after": [
+          {
+            "result": {
+              "duration": 14434599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSteps.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12501514322,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on My Store form",
+            "match": {
+              "location": "MyStorePortalSteps.i_am_on_My_Store_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11173520959,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login as registered user email \"rtqdl@kqhuh.com\" and password \"jonnyhiles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rtqdl@kqhuh.com",
+                  "offset": 34
+                },
+                {
+                  "val": "jonnyhiles",
+                  "offset": 65
+                }
+              ],
+              "location": "MyStorePortalSteps.i_login_as_registered_user_email_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128925648,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to login successfully",
+            "match": {
+              "location": "MyStorePortalSteps.i_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13118921542,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I add first item to the cart from the dresses section",
+            "match": {
+              "location": "MyStorePortalSteps.i_add_first_item_to_the_cart_from_the_dresses_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5331306825,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Proceed to checkout with the default delivery address",
+            "match": {
+              "location": "MyStorePortalSteps.proceed_to_checkout_with_the_default_delivery_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2332922929,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I accept the terms and conditions for Shipping",
+            "match": {
+              "location": "MyStorePortalSteps.i_accept_the_terms_and_conditions_for_Shipping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231023290,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "select payment method as \"Bank-wire payment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bank-wire payment",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStorePortalSteps.select_payment_method_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3121208635,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I confirm my order",
+            "match": {
+              "location": "MyStorePortalSteps.i_confirm_my_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117936656,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see my order is created successfully",
+            "match": {
+              "location": "MyStorePortalSteps.i_should_see_my_order_is_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9400830077,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSteps.deleteCookies()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login Unsuccessfully",
+        "description": "",
+        "id": "purchase-item;login-unsuccessfully",
+        "after": [
+          {
+            "result": {
+              "duration": 21466511,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSteps.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7294362667,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on My Store form",
+            "match": {
+              "location": "MyStorePortalSteps.i_am_on_My_Store_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6459313872,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I login with unregistered user email \"Robert@Smith.com\" and password \"RobertSmith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Robert@Smith.com",
+                  "offset": 38
+                },
+                {
+                  "val": "RobertSmith",
+                  "offset": 70
+                }
+              ],
+              "location": "MyStorePortalSteps.i_login_with_unregistered_user_email_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 584150294,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should throw Authentication failed error",
+            "match": {
+              "location": "MyStorePortalSteps.i_should_throw_Authentication_failed_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "purchase item",
+    "description": "",
+    "id": "purchase-item",
+    "keyword": "Feature",
+    "uri": "featureFiles/AddtoBasketAndPurchaseItems.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11967326822,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSteps.deleteCookies()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "create new user and verify logout and login back",
+        "description": "",
+        "id": "register-user-login-successfully;create-new-user-and-verify-logout-and-login-back;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 14865246,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSteps.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6067964025,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on My Store form",
+            "match": {
+              "location": "MyStorePortalSteps.i_am_on_My_Store_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 300288666,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on Sign in option",
+            "match": {
+              "location": "MyStorePortalSteps.i_click_on_Sign_in_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2113075515,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "It should allow email to create account",
+            "match": {
+              "location": "MyStorePortalSteps.it_should_allow_email_to_create_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1110761481,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Create an account button",
+            "match": {
+              "location": "MyStorePortalSteps.i_click_on_Create_an_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3940607440,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I fill the registration details as \"Mr.\",\"Jonny\",\"Hiles\",\"jonnyhiles\",\"2850 Reynard Way Apt 7\",\"San Diego\",\"California\",\"92103\",\"United States\" and \"0123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mr.",
+                  "offset": 36
+                },
+                {
+                  "val": "Jonny",
+                  "offset": 42
+                },
+                {
+                  "val": "Hiles",
+                  "offset": 50
+                },
+                {
+                  "val": "jonnyhiles",
+                  "offset": 58
+                },
+                {
+                  "val": "2850 Reynard Way Apt 7",
+                  "offset": 71
+                },
+                {
+                  "val": "San Diego",
+                  "offset": 96
+                },
+                {
+                  "val": "California",
+                  "offset": 108
+                },
+                {
+                  "val": "92103",
+                  "offset": 121
+                },
+                {
+                  "val": "United States",
+                  "offset": 129
+                },
+                {
+                  "val": "0123456789",
+                  "offset": 149
+                }
+              ],
+              "location": "MyStorePortalSteps.i_fill_the_registration_details_as_and(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1897263443,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Register button",
+            "match": {
+              "location": "MyStorePortalSteps.i_click_on_Register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41225399,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should login successfully as registered user",
+            "match": {
+              "location": "MyStorePortalSteps.i_should_login_successfully_as_registered_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2016391971,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should logout successfully",
+            "match": {
+              "location": "MyStorePortalSteps.i_should_logout_successfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4459859559,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I login back to my store portal using above created user and password \"jonnyhiles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jonnyhiles",
+                  "offset": 71
+                }
+              ],
+              "location": "MyStorePortalSteps.i_login_back_to_my_store_portal_using_above_created_user_and_password(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41590187,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to login successfully",
+            "match": {
+              "location": "MyStorePortalSteps.i_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register user login successfully",
+    "description": "",
+    "id": "register-user-login-successfully",
+    "keyword": "Feature",
+    "uri": "featureFiles/RegisterAndLogin.feature"
+  }
+]
